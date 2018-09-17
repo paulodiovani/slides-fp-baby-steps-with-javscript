@@ -1,0 +1,36 @@
+{
+  "name": "slides-fp-baby-steps-with-javscript",
+  "homepage": "https://github.com/paulodiovani/slides-fp-baby-steps-with-javscript",
+  "authors": [
+    "Paulo Diovani <paulo@diovani.com>"
+  ],
+  "description": "Functional Programming baby steps with Javascript",
+  "main": [
+    "css/custom.css",
+    "img/*.{jpg,png,svg,gif}",
+    "js/*.js",
+    "content.md",
+    "cover.jpg",
+    "index.html"
+  ],
+  "keywords": [
+    "linux",
+    "containers",
+    "systemd",
+    "nspawn"
+  ],
+  "license": "CC-BY-NC-SA",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "reveal.js": "^3.5.0",
+    "prism": "^1.8.3"
+  }
+}
