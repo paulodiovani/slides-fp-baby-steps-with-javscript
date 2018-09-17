@@ -1,6 +1,6 @@
 <!-- .slide: data-background="img/baby-steps.png" data-background-opacity=".6" data-background-size="contain" -->
 
-## Functional Programming<br>baby steps<br>with Javascript
+## Functional Programming<br>baby steps<br>1with Javascript
 
 <small>Version 0.1.0</small>
 
@@ -8,7 +8,7 @@
 
 ----
 
-![avatar](img/avatar.png) <!-- .element: class="avatar" -->
+![avatar][avatar] <!-- .element: class="avatar" -->
 
 ### <i class="fa fa-user"></i> Paulo Diovani Gonçalves
 
@@ -31,6 +31,7 @@ GNU/Linux user since 2005.
   </tr>
 </table>
 
+[avatar]: img/avatar.jpg
 [medium]: http://medium.com/@paulodiovani
 [blog]: http://blog.diovani.com
 [slides]: http://slides.diovani.com
