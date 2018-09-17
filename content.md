@@ -1,6 +1,6 @@
-<!-- .slide: data-background="img/baby-steps.png" data-background-opacity=".6" data-background-size="contain" -->
+<!-- .slide: data-background="img/baby-steps.png" data-background-opacity=".4" data-background-size="contain" -->
 
-## Functional Programming<br>baby steps<br>1with Javascript
+## Functional Programming<br>baby steps<br>with Javascript
 
 <small>Version 0.1.0</small>
 
