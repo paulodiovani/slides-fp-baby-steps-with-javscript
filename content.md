@@ -10,11 +10,12 @@
 
 ![avatar][avatar] <!-- .element: class="avatar" -->
 
-### <i class="fa fa-user"></i> Paulo Diovani Gonçalves
+### Paulo Diovani Gonçalves
 
 Technologist in Internet Systems by Feevale University.
 Software Enginer at Codeminer 42.
 GNU/Linux user since 2005.
+<!-- .element: class="bio" -->
 
 <table>
   <tr>
