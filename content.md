@@ -7,6 +7,51 @@
 <small>by Paulo Diovani</small>
 
 ----
+<!-- .slide: id="fp-definition" class="bigtext" -->
+
+**Functional Programming**
+
+is a _programming paradigm_ that
+
+treats computation as the evaluation of mathematical functions and
+
+avoids changing-state and mutable data
+
+====
+
+Mutable data
+
+```
+> const zoo = [ '🐍', '🦓', '🐈', '🐻', '🐕', '🦇', '🐇' ]
+> zoo.sort()
+[ '🐇', '🐈', '🐍', '🐕', '🐻', '🦇', '🦓' ]
+> zoo
+[ '🐇', '🐈', '🐍', '🐕', '🐻', '🦇', '🦓' ]
+```
+
+Immutable data
+
+```
+> const zoo = [ '🐍', '🦓', '🐈', '🐻', '🐕', '🦇', '🐇' ]
+> sort(zoo)
+[ '🐇', '🐈', '🐍', '🐕', '🐻', '🦇', '🦓' ]
+> zoo
+[ '🐍', '🦓', '🐈', '🐻', '🐕', '🦇', '🐇' ]
+```
+
+====
+
+
+![class diagram](img/class-diagram.svg) <!-- .element: class="no-border full-width" -->
+
+====
+
+![function block](img/function-block.png) <!-- .element: class="no-border" -->
+
+====
+<!-- .slide: data-background="img/functional-programming-word-cloud.png" data-background-size="contain" -->
+
+----
 
 ![avatar][avatar] <!-- .element: class="avatar" -->
 

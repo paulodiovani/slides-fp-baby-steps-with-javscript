@@ -14,6 +14,11 @@
   background: none !important;
 }
 
+.reveal img.full-width,
+.reveal a.full-width img {
+  width: 100%;
+}
+
 .reveal img.img-half-right {
   float: right;
   width: 30%;
