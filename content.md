@@ -309,8 +309,8 @@ Note:
 Outra desafio comum é manter funções pequenas. Como a Isabela disse
 na sua talk do BrazilJS, _se tem handle no nome é um mal sinal..._
 
-- Se você tem uma função que passa de 100 linhas você já tem ponto
-de melhoria. Se tem mais de 500 você já tem um problema.
+- Se você tem uma função que passa de 10 linhas você já tem ponto
+de melhoria. Se tem mais de 50 você já tem um problema.
 
 ====
 
