@@ -216,7 +216,7 @@ compose(
   sendReceip,
   payLunch,
   reserveRestaurant
-)()
+)('🍽')
 ```
 
 <small>Composition is the act of putting functions together to form a function where the output of one function is the input of the other.</small>
@@ -260,6 +260,65 @@ giveRide('👪')
 ```
 
 <small>Currying is the process of converting a function that takes multiple arguments into a function that takes them one at a time.</small>
+
+----
+
+## JS Vanilla Syntax for ES2015 and Beyond
+
+====
+
+![babel](img/babel-logo.png) <!-- .element: class="no-border no-bg" -->
+
+<small>Babel or Babel.js is a free and open-source JavaScript compiler and configurable transpiler used in web development.</small>
+
+----
+
+### Destructuring assignment
+
+```
+[a, b, ...rest] = ['♠', '♥', '♦', '♣'];
+a // '♠'
+b // '♥'
+rest // ['♦', '♣']
+
+{a, b, ...rest} = {a: '♠', b: '♥', c: '♦', d: '♣'};
+a // '♠'
+b // '♥'
+rest // {c: '♦', d: '♣'}
+```
+
+====
+
+### Destructuring assignment for function arguments
+
+```
+function getRedSuits({ b, c }) {
+  return { b, c }
+}
+
+const suits = {a: '♠', b: '♥', c: '♦', d: '♣'}
+
+getRedSuits(suits)
+// {b: '♥', c: '♦'}
+```
+
+====
+
+### Spread operator
+
+```
+const dateFields = [1970, 0, 1];  // 1 Jan 1970
+new Date(...dateFields);
+
+const birds = ['🕊', '🐦', '🐧'];
+const rodents = ['🐀', '🐇'];
+const animals = [...birds, ...rodents, '🚶']
+// ['🕊', '🐦', '🐧', '🐀', '🐇', '🚶'];
+
+const obj1 = { deepthought: '🤖', answer: 42 };
+const clonedObj = { ...obj1 };
+// Object { deepthought: '🤖', answer: 42 }
+```
 
 ----
 
