@@ -7,6 +7,9 @@
 <small>by Paulo Diovani</small>
 
 ----
+<!-- .slide: data-background="img/functional-programming-word-cloud.png" data-background-size="contain" -->
+
+====
 <!-- .slide: id="fp-definition" class="bigtext" -->
 
 **Functional Programming**
@@ -47,9 +50,6 @@ zoo
 ====
 
 ![function block](img/function-block.png) <!-- .element: class="no-border" -->
-
-====
-<!-- .slide: data-background="img/functional-programming-word-cloud.png" data-background-size="contain" -->
 
 ----
 <!-- .slide: id="js-definition" class="bigtext" -->
@@ -226,30 +226,36 @@ compose(
 ### 5. Allow partial application
 
 ```
-function travel(car, fuel, people) {
+function driveUber(car, fuel, passenger) {
   return '🛣'
 }
 
-travel('🚙', '⛽', undefined)
+driveUber('🚙', '⛽')
 // TypeError ...
+driveUber(null, null, '🧑')
+// TypeError ...
+driveUber('🚙', '⛽', '👪')
+// 🛣
 ```
 
-<small>Do I need to buy a new car for each new trip? 💸</small>
+<small>Do I need to buy a new car and fill up for each ride? 💸</small>
 
 ====
 
 ### ~~5. Allow partial application~~ ✔
 
 ```
-const travel = (car) => (fuel) => (people) => {
+const driveUber = (car) => (fuel) => (passenger) => {
   return '🛣'
 }
 
-const fillTank = travel('🚙')
+const fillUp = driveUber('🚙')
 // [Function]
-const hitTheRoad = fillTank('⛽')
+const giveRide = fillUp('⛽')
 // [Function]
-hitTheRoad('👪')
+giveRide('🧑')
+// 🛣
+giveRide('👪')
 // 🛣
 ```
 
