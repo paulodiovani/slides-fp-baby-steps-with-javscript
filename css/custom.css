@@ -40,7 +40,7 @@ and increase font size
 
 .reveal pre {
   width: auto;
-  /*font-size: .7em;*/
+  font-size: .7em;
   padding: 0 1em;
 }
 
