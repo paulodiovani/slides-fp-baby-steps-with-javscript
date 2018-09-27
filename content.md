@@ -44,11 +44,6 @@ zoo
 
 ====
 
-
-![class diagram](img/class-diagram.svg) <!-- .element: class="no-border full-width" -->
-
-====
-
 ![function block](img/function-block.png) <!-- .element: class="no-border" -->
 
 ----
@@ -68,15 +63,11 @@ as dynamic, weakly typed, prototype-based and multi-paradigm
 
 ====
 
-## Solving JS problems with
+## Solving JS problems with<br>Functional Programming
 
-## Functional Programming
+![undefined is a function](img/undefined-fix.png) <!-- .element: class="no-border" -->
 
-====
-
-![undefined is a function](img/undefined-fix.png) <!-- .element: class="no-border full-width" -->
-
-https://github.com/donavon/undefined-is-a-function
+<small>https://github.com/donavon/undefined-is-a-function</small>
 
 ----
 
@@ -261,17 +252,27 @@ giveRide('👪')
 
 <small>Currying is the process of converting a function that takes multiple arguments into a function that takes them one at a time.</small>
 
+====
+
+#### ⚠ JavaScript mutator methods
+
+`copyWithin()` `fill()` `pop()` `push()` `reverse()` `shift()` `sort()` `splice()` `unshift()`
+
+`Object.assign()`
+
+#### JavaScript acessor methods
+
+`concat()` `includes()` `indexOf()` `join()` `lastIndexOf()` `slice()` `toSource()` `toString()` `toLocaleString()`
+
 ----
 
 ## JS Vanilla Syntax for ES2015 and Beyond
 
-====
-
-![babel](img/babel-logo.png) <!-- .element: class="no-border no-bg" -->
+![babel](img/babel-logo.png) <!-- .element: class="no-border no-bg half-width" -->
 
 <small>Babel or Babel.js is a free and open-source JavaScript compiler and configurable transpiler used in web development.</small>
 
-----
+====
 
 ### Destructuring assignment
 

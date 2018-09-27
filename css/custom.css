@@ -19,6 +19,11 @@
   width: 100%;
 }
 
+.reveal img.half-width,
+.reveal a.half-width img {
+  width: 50%;
+}
+
 .reveal img.img-half-right {
   float: right;
   width: 30%;
