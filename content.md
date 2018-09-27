@@ -136,7 +136,7 @@ em JavaScript?
 const family = ['👨', '👩', '👦']
 
 function haveAnAffair() {
-  family.push('👶')
+  return family.push('👶')
 }
 
 haveAnAffair()
@@ -160,7 +160,7 @@ array declarado fora dela.
 const family = ['👨', '👩', '👦']
 
 function haveAnAffair(people) {
-  people.concat('👶')
+  return people.concat('👶')
 }
 
 haveAnAffair(family)
