@@ -323,6 +323,48 @@ const clonedObj = { ...obj1 };
 
 ----
 
+## JS Functional Programming Libraries
+
+- [Functional.js](http://functionaljs.com/)
+- [Lodash/FP](https://github.com/lodash/lodash/wiki/FP-Guide)
+- [Ramda](https://ramdajs.com/)
+- [Immutable](http://facebook.github.io/immutable-js/)
+- ...
+
+====
+
+## FP Languages which compiles to JavaScript
+
+- [elm](http://elm-lang.org/)
+- [ClojureScript](https://clojurescript.org/)
+- ...
+
+====
+
+## Conclusions
+
+- Use FP to solve problems
+- Mix paradigms
+- Apply design patterns
+- Test your code
+- Learn other languages
+
+----
+<!-- .slide: class="references" -->
+
+## References
+
+- https://github.com/hemanth/functional-programming-jargon
+- https://blog.codeminer42.com/introduction-to-functional-programming-with-javascript-c06a2540a7c3
+- http://slides.diovani.com/slides-flatenning-js-modules/index.html
+- https://en.wikipedia.org/wiki/Functional_programming
+- http://recurship.com/blog/immutable-data-structures-functional-javascript
+- https://www.plcacademy.com/function-block-diagram-programming/
+- https://mikhail.io/2018/07/monads-explained-in-csharp-again/
+- https://developer.mozilla.org
+
+====
+
 ![avatar][avatar] <!-- .element: class="avatar" -->
 
 ### Paulo Diovani Gonçalves

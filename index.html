@@ -47,7 +47,7 @@
         transition: 'fade',
         progress: false,
         slideNumber: 'c/t',
-        showSlideNumber: 'all',
+        showSlideNumber: /print\-pdf/gi.test(location.search) ? 'none' : 'all',
 
         // More info https://github.com/hakimel/reveal.js#dependencies
         dependencies: [

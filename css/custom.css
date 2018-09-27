@@ -68,6 +68,17 @@ and increase font size
   clear: both;
 }
 
+.reveal .references ul {
+  width: 90%;
+}
+
+.reveal .references ul > li {
+  font-size: .8em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /*
 Image credits
  */
