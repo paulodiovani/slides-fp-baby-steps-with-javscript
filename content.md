@@ -553,7 +553,7 @@ Por fim, a maior dica aqui é:
 
 - Aprendam uma linguagem FP que só isso já vai ajudar a resolver
   problemas de maneiras diferentes.
-  
+
 ----
 <!-- .slide: class="references" -->
 
